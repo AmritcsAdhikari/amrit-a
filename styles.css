@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 30%;
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 30px auto 30px;
+}
+
+.author-name {
+	font-family: 'Oswald', sans-serif;
+	color: #4d4e4f;
+}
+
+.social-media {
+	transition: color 0.3s;
+}
+
+.social-media > a{
+	padding: 5px;
+	font-size: 30px;
+}
+
+.social-media i.fa-github {
+	color: #333; /* GitHub color */
+}
+.social-media i.fa-instagram {
+    color: #E1306C; /* Instagram color */
+}
+.social-media i.fa-linkedin {
+    color: #0077B5; /* LinkedIn color */
+}
+.social-media a:hover i {
+    color: #000; /* Change to any color on hover */
+}
+
+.description {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+}
+
+.content {
+    width: 70%;
+    padding-left: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+	font-family: 'Oswald', sans-serif;
+}
+
+.article {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.article:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-5px);
+}
+
+.article h4 {
+    margin: 0;
+    color: #1d4063;
+}
+
+.article p {
+    margin: 5px 0;
+    color: #666;
+	font-size: 12px;
+}
+
+.article .tags {
+    margin: 10px 0;
+}
+
+.article .tags span {
+    display: inline-block;
+    background: #888;
+    color: #fff;
+    padding: 3px;
+    margin-right: 5px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+.article .links {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.article .link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #555;
+}
+
+.article .link i {
+    margin-right: 5px;
+}
+
+.article .link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar,
+    .content {
+        width: 100%;
+        padding: 0;
+        border-right: none;
+    }
+
+    .sidebar {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .content {
+        padding-top: 20px;
+    }
+}
+
+
+/* Filter: Existing styles remain unchanged */
+.filter {
+    margin-bottom: 20px;
+}
+
+.filter label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#tag-filters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tag-filters input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#tag-filters label {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.article[data-tags] {
+    display: block;
+}
+
+.article.hidden {
+    display: none;
+}
+
+.article:hover {
+    background-color: #f0f0f0;
+}
+
+
