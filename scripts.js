@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const articles = [
         {
-            title: 'Understanding Spring AI Framework',
-            description: 'A comprehensive guide to understanding artificial intelligence and its applications.',
-            tags: ['Technology', 'Programming'],
-            githubLink: 'https://github.com/your-repo/ai-guide',
-            blogLink: 'https://your-blog.com/ai-guide'
+            title: 'Understanding Java Records',
+            description: 'A comprehensive guide to understanding Java Record Class and its applications.',
+            tags: ['Java'],
+            githubLink: '',
+            blogLink: 'https://medium.com/@amritcsadhikari/understanding-java-records-727f98d05456'
         },
         {
             title: 'Introduction to Web Development',
