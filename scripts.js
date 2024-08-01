@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: 'Sending Emails with Spring Boot: Comprehensive Guide',
-            description: 'A beginner-friendly guide to sending emails using a spring boot application. The goal of this project is to expose a few rest endpoints for sending an email using spring-boot-starter-mail which internally uses JavaMailSender interface covering different email body types like Plain Text/ Template/ HTML/ Attachment.',
+            description: 'A beginner-friendly guide to sending emails using a spring boot application. The goal of this project is to expose a few rest endpoints for sending an email using spring-boot-starter-mail which internally uses JavaMailSender interface covering different email body types: Plain Text, Template, HTML, Attachment.',
             tags: ['Java'],
             githubLink: 'https://github.com/AmritcsAdhikari/Sending-Email-Spring-Boot',
             blogLink: '' // No blog link
