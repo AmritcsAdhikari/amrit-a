@@ -10,14 +10,14 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: 'Sending Emails with Spring Boot: Comprehensive Guide',
             description: 'A beginner-friendly guide to sending emails using a spring boot application. The goal of this project is to expose a few rest endpoints for sending an email using spring-boot-starter-mail which internally uses JavaMailSender interface covering different email body types: Plain Text, Template, HTML, Attachment.',
-            tags: ['Java'],
+            tags: ['Java','Spring Boot'],
             githubLink: 'https://github.com/AmritcsAdhikari/Sending-Email-Spring-Boot',
             blogLink: '' // No blog link
         },
         {
             title: 'The Future of Blockchain',
             description: 'Exploring the potential of blockchain technology and its applications beyond cryptocurrency.',
-            tags: ['Blockchain', 'Technology'],
+            tags: ['Blockchain'],
             githubLink: '', // No GitHub link
             blogLink: 'https://your-blog.com/blockchain-future'
         },
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         title: 'Building RESTful APIs with Node.js and Express',
         description: 'Step-by-step instructions for creating efficient RESTful APIs using Node.js and the Express framework.',
-        tags: ['Node.js', 'API', 'Backend'],
+        tags: ['Node.js', 'API'],
         githubLink: 'https://github.com/your-repo/node-api',
         blogLink: 'https://your-blog.com/node-api'
     },
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         title: 'Getting Started with React: A Beginner\'s Guide',
         description: 'A comprehensive guide for beginners to get started with React and build dynamic web applications.',
-        tags: ['React', 'JavaScript', 'Frontend'],
+        tags: ['React'],
         githubLink: 'https://github.com/your-repo/react-guide',
         blogLink: 'https://your-blog.com/react-guide'
     },
