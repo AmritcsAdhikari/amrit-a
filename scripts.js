@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
             blogLink: 'https://medium.com/@amritcsadhikari/understanding-java-records-727f98d05456'
         },
         {
-            title: 'Introduction to Web Development',
-            description: 'A beginner-friendly guide to web development, covering HTML, CSS, and JavaScript.',
-            tags: ['Web Development', 'Programming'],
-            githubLink: 'https://github.com/your-repo/web-development-guide',
+            title: 'Sending Emails with Spring Boot: Comprehensive Guide',
+            description: 'A beginner-friendly guide to sending emails in a spring boot application. The goal of this project is to expose a few rest endpoints for sending an email using spring-boot-starter-mail internally which internally uses JavaMailSender interface covering different email body types like Plain Text/Template/HTML/Attachment.',
+            tags: ['Java'],
+            githubLink: 'https://github.com/AmritcsAdhikari/Sending-Email-Spring-Boot',
             blogLink: '' // No blog link
         },
         {
