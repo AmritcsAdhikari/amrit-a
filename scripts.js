@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: 'OAuth 2.0 Resource Server JWT',
-            description: 'The goal of this project is to leverage Spring's inbuilt security feature to secure a spring boot application using JWT.',
+            description: 'The goal of this project is to leverage Spring\'s inbuilt security feature to secure a spring boot application using JWT.',
             tags: ['Java','Spring Boot','Security'],
             githubLink: 'https://github.com/AmritcsAdhikari/Jwt-oauth2-resource-server', 
             blogLink: '' // No blog link
