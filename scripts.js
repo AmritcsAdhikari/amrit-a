@@ -15,11 +15,11 @@ document.addEventListener('DOMContentLoaded', () => {
             blogLink: '' // No blog link
         },
         {
-            title: 'The Future of Blockchain',
-            description: 'Exploring the potential of blockchain technology and its applications beyond cryptocurrency.',
-            tags: ['Blockchain'],
-            githubLink: '', // No GitHub link
-            blogLink: 'https://your-blog.com/blockchain-future'
+            title: 'OAuth 2.0 Resource Server JWT',
+            description: 'The goal of this project is to leverage Spring's inbuilt security feature to secure a spring boot application using JWT.',
+            tags: ['Java','Spring Boot','Security'],
+            githubLink: 'https://github.com/AmritcsAdhikari/Jwt-oauth2-resource-server', 
+            blogLink: '' // No blog link
         },
 		 {
         title: 'Mastering JavaScript: The Definitive Guide for Developers',
