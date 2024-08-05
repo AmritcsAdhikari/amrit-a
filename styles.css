@@ -25,10 +25,11 @@ body {
 
 .profile-photo {
     width: 150px;
-    height: 150px;
+    height: 190px;
     border-radius: 50%;
     display: block;
     margin: 30px auto 30px;
+    transform: rotate(-5deg);
 }
 
 .author-name {
