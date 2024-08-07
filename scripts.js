@@ -1,5 +1,19 @@
 document.addEventListener('DOMContentLoaded', () => {
     const articles = [
+	{
+            title: 'OAuth 2.0 Resource Server JWT',
+            description: 'The goal of this project is to leverage Spring\'s inbuilt security feature to secure a spring boot application using JWT.',
+            tags: ['Java','Spring Boot','Security'],
+            githubLink: 'https://github.com/AmritcsAdhikari/Jwt-oauth2-resource-server', 
+            blogLink: '' // No blog link
+        },
+	{
+            title: 'OpenAPI Documentation: OAuth 2.0 Resource Server JWT',
+            description: 'The goal of this project is to generate a visual document from OpenAPI specification that helps visualize and test the REST APIs. .',
+            tags: ['Java','Spring Boot','Security'],
+            githubLink: 'https://github.com/AmritcsAdhikari/Spring-Security-API-Documentation', 
+            blogLink: '' // No blog link
+        },
         {
             title: 'Understanding Java Records',
             description: 'A comprehensive guide to understanding Java Record Class and its applications.',
@@ -14,14 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
             githubLink: 'https://github.com/AmritcsAdhikari/Sending-Email-Spring-Boot',
             blogLink: '' // No blog link
         },
-        {
-            title: 'OAuth 2.0 Resource Server JWT',
-            description: 'The goal of this project is to leverage Spring\'s inbuilt security feature to secure a spring boot application using JWT.',
-            tags: ['Java','Spring Boot','Security'],
-            githubLink: 'https://github.com/AmritcsAdhikari/Jwt-oauth2-resource-server', 
-            blogLink: '' // No blog link
-        },
-		 {
+       
+     {
         title: 'Mastering JavaScript: The Definitive Guide for Developers',
         description: 'A thorough exploration of JavaScript fundamentals, advanced topics, and best practices for developers.',
         tags: ['JavaScript', 'Programming', 'Web Development'],
