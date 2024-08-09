@@ -28,6 +28,13 @@ document.addEventListener('DOMContentLoaded', () => {
             githubLink: 'https://github.com/AmritcsAdhikari/Sending-Email-Spring-Boot',
             blogLink: '' // No blog link
         },
+	{
+            title: 'E-Commerce Appliication with MERN',
+            description: 'This project aims to develop skills in MERN stack technologies while integrating various libraries. The focus is on building server-side and client-side applications, consuming REST APIs. Key Technology used are: JWT, Gravatar, react-bootstrap, redux-toolkit, react-toastify.',
+            tags: ['Javascript','NODE.JS', 'REACT.JS'],
+            githubLink: 'https://github.com/AmritcsAdhikari/E-Commerce-Application',
+            blogLink: '' // No blog link
+        },
        
      {
         title: 'Mastering JavaScript: The Definitive Guide for Developers',
