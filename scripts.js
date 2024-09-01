@@ -37,10 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
         },
        
      {
-        title: 'Mastering JavaScript: The Definitive Guide for Developers',
-        description: 'A thorough exploration of JavaScript fundamentals, advanced topics, and best practices for developers.',
-        tags: ['JavaScript', 'Programming', 'Web Development'],
-        githubLink: 'https://github.com/your-repo/js-guide',
+        title: 'React Context API & Protected Routes for Global Authentication State Management: The Developer Guide',
+        description: 'A thorough exploration of React Context API, Custom Hooks, Protected Routes for global Authentication state management across the application and best practices for developers.',
+        tags: ['JavaScript', 'REACT.JS', 'NODE.JS'],
+        githubLink: 'https://github.com/AmritcsAdhikari/AmritcsAdhikari-React-Context-ProtectedRoutes-Authentication-Fullstack',
         blogLink: 'https://your-blog.com/js-guide'
     },
     {
