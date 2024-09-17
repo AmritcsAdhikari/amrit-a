@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         title: 'Building RESTful APIs with Node.js and Express',
         description: 'Step-by-step instructions for creating efficient RESTful APIs using Node.js and the Express framework.',
-        tags: ['Node.js', 'API'],
+        tags: [],
         githubLink: 'https://github.com/your-repo/node-api',
         blogLink: 'https://your-blog.com/node-api'
     },
@@ -60,14 +60,14 @@ document.addEventListener('DOMContentLoaded', () => {
     {
         title: 'Responsive Web Design: Techniques and Best Practices',
         description: 'Learn how to create responsive web designs that look great on all devices and screen sizes.',
-        tags: ['Web Design', 'CSS', 'Responsive'],
+        tags: [],
         githubLink: 'https://github.com/your-repo/responsive-design',
         blogLink: 'https://your-blog.com/responsive-design'
     },
     {
         title: 'Getting Started with React: A Beginner\'s Guide',
         description: 'A comprehensive guide for beginners to get started with React and build dynamic web applications.',
-        tags: ['React'],
+        tags: ['REACT.JS'],
         githubLink: 'https://github.com/your-repo/react-guide',
         blogLink: 'https://your-blog.com/react-guide'
     },
